@@ -11,3 +11,6 @@ fi
 if [ ! -r "$dir" ]; then 
  echo "Erreur : je ne peux pas lire le répertoire \"$dir\"" 1>&2  exit 1 
 fi 
+
+Read varnb
+echo "$varnb  "
