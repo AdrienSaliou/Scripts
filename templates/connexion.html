@@ -1,0 +1,60 @@
+<html>
+    <head>
+       <meta charset="utf-8">
+        <!-- importer le fichier de style -->
+        <link rel="stylesheet" href="style.css" media="screen" type="text/css" />
+    </head>
+    <body>
+	
+	
+	<!-- Titre 1 -->
+   <center> <h1>Bienvenue sur AlloBobo !</h1> </center>
+
+   <br />
+<br />
+
+
+       <!-- button -->
+	    <center>
+	   <button type="submit"> <a href="acceuil.html">Acceuil</a> </p> </button>
+       <button type="submit"> <a href="Qui nous sommes.html">Qui nous sommes</a> </p> </button>	
+       <button type="submit"> <a href="Nos solutions.html">Nos solutions</a> </p> </button> 	
+       <button type="submit"> <a href="F.A.Q.html">F.A.Q</a> </p> </button> 
+	   <button type="submit"> <a href="Contact.html">Contact</a> </p> </button>
+	   </center>  
+ 
+	   <br />
+	   <br />
+	   <br />
+       <br />
+	
+		
+	
+	
+	<!-- zone de connexion -->
+        <div id="container">
+         
+            
+            <form action="verification.php" method="POST">
+			
+                <h2>Connexion</h2>
+                
+                <label><b>Nom d'utilisateur</b></label>
+                <input type="email" placeholder="Entrer le nom d'utilisateur" name="username" required>
+
+                <label><b>Mot de passe</b></label>
+                <input type="password" placeholder="Entrer le mot de passe" name="password" required>
+
+                <input type="submit" id='submit' value='LOGIN' >
+                <?php
+                if(isset($_GET['erreur'])){
+                    $err = $_GET['erreur'];
+                    if($err==1 || $err==2)
+                        echo '<p style='color:red'>utilisateur ou mot de passe incorrect</p>
+             
+            </form>
+        </div>
+		
+		<button type="submit"> <a href="inscription.html">inscription</a> </p> </button> 
+    </body>
+</html>

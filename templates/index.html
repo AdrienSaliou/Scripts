@@ -1,0 +1,139 @@
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>AlloBobo</title> 
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+	<link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet'>
+	
+	</head>
+
+<body>
+
+
+ <!-- buttonconnexion -->
+
+
+	<div class= "block" > 
+
+		<button class="button1"> <a href="connexion.html">Connexion</a> 
+	</div>  
+<br />
+<br />
+<br />
+<br />
+	   
+<!-- Titre 1 -->
+   <center> <div class="box">
+	
+	    <h1 class="title" >Bienvenue sur AlloBobo !</h1> 
+	</div> </center> 
+  
+
+   <br />
+<br />
+
+<!--images_fleur-->
+
+	<img class="img1" src="{{ url_for('static', filename='image/fleur_endroit.png') }}" >
+	<img class="img2" src="{{ url_for('static', filename='image/fleur_envers.png') }}" >
+
+
+
+       <!-- button -->
+	    <center>
+	<div class="block">
+	   <button class="button is-outlined"> <a href="Qui nous sommes.html">Qui nous sommes</a>
+        <button class="button is-outlined"> <a href="Nos solutions.html">Nos solutions</a>  </button> 	
+        <button class="button is-outlined"> <a href="Nos offres.html">Nos offres</a>  </button> 
+        <button class="button is-outlined"> <a href="F.A.Q.html">F.A.Q</a>  </button> 
+	    <button class="button is-outlined"> <a href="Contact.html">Contact</a>  </button>
+	</div>
+	   </center>  
+ 
+	   <br />
+	   <br />
+	   <br />
+       <br />
+
+	<!-- Barre de recherche -->
+	<center>
+		<input id="BARRE DE RECHERCHE (spécialité,établissement)" class="barre1" onkeyup="spécialité,établissement()" type="text"
+	name="search" placeholder="BARRE DE RECHERCHE (spécialité,établissement)..">
+
+	<input id="BARRE DE RECHERCHE (lieu)" class="barre2" onkeyup="lieu()" type="text"
+	name="search" placeholder="BARRE DE RECHERCHE (lieu)..">
+	
+	<!--ButtonGo-->
+	<button class="button is-primary is-rounded"> GO </button>
+	
+	</center>
+
+	
+	
+
+	<!-- lien ancré image + legende (figcaption)-->
+	
+	<br />
+	<br />
+	<br />
+	
+	<a href="page essential.html"><img class="image3" src="{{ url_for('static', filename='image/essential.jpeg') }}"  alt="essential" /></a> <figcaption class="legimg3">Démarrer un bilan de santé</figcaption> 
+	<a href="page pharmacy.html"><img class="image4" src="{{ url_for('static', filename='image/pharmacy.jpeg') }}"  alt="pharmacy" /></a><figcaption class="legimg4">Top 10 des symptômes</figcaption> 
+	<a href="page docteur.html"><img class="image5" src="{{ url_for('static', filename='image/docteur.jpeg') }}"  alt="docteur" /></a><figcaption class="legimg5" >Big Data au service de la médecine</figcaption> 
+
+		
+       
+	<!-- bas de page-->  
+	
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br /> 
+	<br />
+	<br />
+	<br />
+
+<center>  
+<div> 
+
+
+	<button type="submit" class="unstyled-button"> <a href="RGPD.html">RGPD</a> </p> </button>
+	<button type="submit" class="unstyled-button"> <a href="À propos de AlloBobo.html">À propos de AlloBobo</a> </p> </button>
+	<button type="submit" class="unstyled-button"> <a href="Pour les professionnels de santé.html">Pour les professionnels de santé</a> </p> </button> 
+	<button type="submit" class="unstyled-button"> <a href="Condition générale d'utilisation.html">Condition générale d'utilisation </p> </button>
+
+	
+</div>
+</center> 
+	   
+
+	
+	<br />
+	<br />
+	<br />
+    <br />
+
+<!--logos-->
+
+<a href="https://www.instagram.com/%22%22%3E"><img class="img6" src="{{ url_for('static', filename='image/insta.jpeg') }}"  alt="insta"></a>
+<a href="https://www.facebook.com/%22%22%3E" ><img  class="img6"src="{{ url_for('static', filename='image/facebook.jpg') }}"  alt="facebook" ></a>
+<a href="https://fr.linkedin.com/%22%22%3E"><img   class="img6"src="{{ url_for('static', filename='image/linkedin.jpeg') }}"  alt="linkedin"></a>
+<a href="https://fr.linkedin.com/%22%22%3E"><img   class="img6"src="{{ url_for('static', filename='image/Twitter.png') }}"  alt="Twitter" ></a>       
+
+
+
+
+
+
+
+</body>
+</html>

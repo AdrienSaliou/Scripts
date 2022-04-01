@@ -1,0 +1,27 @@
+body {background-color:#f7f1ed; }
+
+h1 {font-family: 'Pacifico';font-size: 36px; }
+.box {background-color:#fc71b5; border:solid; border-color:#8B008B; border-width: 2px; }
+img { width : 70px; height : 70px; }
+.img1 {position:absolute; top: 125px; }
+.img2 {position:absolute; right: 0px; top: 125px; }
+.button1 {background-color:#a5e22c; border:solid; border-color:#006400; border-width: 2px; right: 0px;position :absolute ; }
+.barre1 { width : 300px; height : 40px; }
+.barre2 { width : 300px; height : 40px; }
+.image3 { width : 300px; height : 200px; position: absolute;  left: 450px;  }
+.legimg3 {position:absolute; left: 500px; top: 700px; }
+.image4 { width : 300px; height : 200px; position: absolute;  left: 800px; }
+.legimg4 {position:absolute; left: 850px; top: 700px; }
+.image5 { width : 300px; height : 200px; position: absolute;  right: 450px; }
+.legimg5 {position:absolute; right: 475px; top: 700px; }
+.unstyled-button {
+    border: none;
+    padding: 0;
+    background: none;
+    padding-right: 10px ;
+    padding-left: 10px ;
+  }
+.img6 { width: 30; height: 30;}
+.box1 {background-color:#fc71b5; border:solid; border-color:#8B008B; border-width: 2px; }
+.img1-1 {position:absolute; top: 5px; }
+.img2-1 {position:absolute; right: 0px; top: 5px; }
