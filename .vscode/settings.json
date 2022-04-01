@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/bd65a1cc-f557-4ef9-912a-ce91e745c265/resourceGroups/Allobotest/providers/Microsoft.Web/sites/allobotestbyadrien",
+    "appService.deploySubpath": "."
+}
